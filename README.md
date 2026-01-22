@@ -40,16 +40,6 @@ The core system uses a **Genotype-to-Phenotype** mapping. Each plant carries a d
 
 ---
 
-## 📸 Project Gallery
-*(Replace these placeholders with your actual screenshots from the AWD folder or screenshots folder)*
-
-<div align="center">
-  <img src="https://via.placeholder.com/400x250.png?text=VR+Environment+Preview" width="48%" />
-  <img src="https://via.placeholder.com/400x250.png?text=Genetics+UI+Preview" width="48%" />
-</div>
-
----
-
 ## 🚀 Installation
 1. Clone the repository:
    ```bash
