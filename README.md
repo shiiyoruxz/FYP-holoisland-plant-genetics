@@ -1,46 +1,56 @@
-HoloIsland: Plant Genetics (FYP) 🌿🥽
-A Mixed Reality / Virtual Reality Exploration of Botanical Genetics
+# HoloIsland: Plant Genetics (FYP) 🌿🥽
+**An Immersive XR Experience exploring Procedural Botany and Genetic Inheritance**
 
-📌 Project Overview
-HoloIsland is a Final Year Project developed at TAR UMT that merges educational simulations with immersive technology. The project focuses on a Plant Genetics System, allowing users to interact with, breed, and observe the genetic evolution of virtual plant species in a 3D environment.
+[![Unity](https://img.shields.io/badge/Unity-2021.3+-black?logo=unity&logoColor=white)](https://unity.com/)
+[![C#](https://img.shields.io/badge/Language-C%23-blue?logo=c-sharp&logoColor=white)](https://docs.microsoft.com/en-us/dotnet/csharp/)
+[![Platform](https://img.shields.io/badge/Platform-MR%20%7C%20VR-lightgrey)](#)
 
-The goal of this project was to create a gamified learning experience where complex biological concepts—such as Mendelian inheritance and phenotypic expression—are visualized through interactive 3D models.
+---
 
-✨ Key Features
-Genetic Simulation Engine: A backend system built in Chttps://www.google.com/search?q=%23 that handles DNA-like data structures to determine plant traits (color, height, leaf shape).
+## 📌 Overview
+**HoloIsland** is my Final Year Project (FYP) developed at **TAR UMT**. It is a Mixed Reality (MR) / Virtual Reality (VR) simulation that allows users to step into a digital laboratory to study, breed, and grow plant species using a custom-built genetic engine. 
 
-Procedural Growth & Interaction: Plants grow and change based on their genetic makeup, allowing for unique variations in every session.
+This project demonstrates the intersection of **Interactive Software Technology** and **Bio-simulation**, focusing on how complex scientific data (Genetics) can be visualized through immersive 3D interfaces.
 
-Immersive XR Experience: Designed for VR/MR headsets, featuring intuitive hand-tracking or controller interactions for "gardening" and cross-pollination.
+---
 
-Real-time Data Visualization: Visual feedback systems that explain the genetic traits of a selected plant to the user.
+## ✨ Key Features
 
-🛠️ Technical Implementation
-Engine: Unity 2021.3 LTS
+* **Genetic Breeding System:** Implemented Mendelian inheritance logic. Users can cross-pollinate different plants to produce offspring with unique DNA combinations.
+* **Procedural Trait Expression:** Plant height, color, and leaf patterns are not pre-set; they are generated dynamically based on the plant's genotype.
+* **Diegetic XR Interface:** Designed a "floating lab" UI that exists within the 3D world, ensuring user immersion remains unbroken during the simulation.
+* **Interactive Gardening:** Physics-based interactions for handling seeds, tools, and environmental controls.
 
-XR Framework: OpenXR / MRTK (Mixed Reality Toolkit)
+---
 
-Core Systems:
+## 🛠️ Technical Architecture
 
-Inheritance Logic: ScriptableObject-based architecture to manage trait variations.
+### Genetic Engine Logic
+The core system uses a **Genotype-to-Phenotype** mapping. Each plant carries a digital "chromosome" (ScriptableObject) that stores dominant and recessive alleles.
 
-Optimization: Object pooling for plant instances to maintain high performance in VR.
 
-UI/UX: Diegetic UI (in-world interfaces) to keep the user immersed in the HoloIsland environment.
 
-🚀 Getting Started
-Clone the Repo:
+* **Genotype:** A data structure containing the trait codes.
+* **Phenotype Engine:** Interprets the genotype to modify Mesh renderers, Material properties, and Transform scales in real-time.
 
-Bash
+### Development Stack
+* **Engine:** Unity 2021.3 LTS
+* **XR Integration:** OpenXR & MRTK (Mixed Reality Toolkit)
+* **Version Control:** Git
 
-git clone https://github.com/shiiyoruxz/FYP-holoisland-plant-genetics.git
-Unity Version: Open using Unity 2021.3.x.
+---
 
-Hardware: Ensure you have an XR-compatible headset (Oculus/Meta Quest, HoloLens, or Windows Mixed Reality) connected via Link or AirLink.
+## 📸 Project Gallery
+*(Replace these placeholders with your actual screenshots from the AWD folder or screenshots folder)*
 
-👨‍💻 Academic Context
-Institution: Tunku Abdul Rahman University of Management and Technology (TAR UMT)
+<div align="center">
+  <img src="https://via.placeholder.com/400x250.png?text=VR+Environment+Preview" width="48%" />
+  <img src="https://via.placeholder.com/400x250.png?text=Genetics+UI+Preview" width="48%" />
+</div>
 
-Course: Bachelor of Computer Science (Honours) in Interactive Software Technology
+---
 
-Project Type: Final Year Project (FYP)
+## 🚀 Installation
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/shiiyoruxz/FYP-holoisland-plant-genetics.git](https://github.com/shiiyoruxz/FYP-holoisland-plant-genetics.git)
